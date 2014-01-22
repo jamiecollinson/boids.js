@@ -4,7 +4,4 @@ describe('built in functions', function() {
   it('should know true is true is true', function() {
     assert.equal(true, true);
   });
-  it('should know true is true is true', function() {
-    
-  });
 });

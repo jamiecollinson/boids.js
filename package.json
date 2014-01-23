@@ -1,0 +1,30 @@
+{
+  "name": "boids.js",
+  "version": "0.0.0",
+  "description": "boids library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamiecollinson/boids.js.git"
+  },
+  "keywords": [
+    "boids",
+    "emergence"
+  ],
+  "author": "Jamie Collinson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "833872750e8e709de8e8c8641f58f5a6ced5a3e0",
+  "bugs": {
+    "url": "https://github.com/jamiecollinson/boids.js/issues"
+  },
+  "devDependencies": {
+    "should": "~3.1.0"
+  }
+}

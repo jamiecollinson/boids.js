@@ -12,5 +12,5 @@ describe 'boids', ->
     boids.boids.should.be.an.Array
   
   it 'should populate the boids array with a given number of boids', ->
-    boids = new Boids(5)
+    boids = new Boids 5
     boids.boids.length.should.equal 5

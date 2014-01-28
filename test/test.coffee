@@ -19,5 +19,9 @@ describe 'boids array', ->
 describe 'individual boids', ->
   it 'should have x and y positions', ->
     boids = new Boids 1
-    boids.boids[0].posX.should.exist
-    boids.boids[0].posY.should.exist
+    boids.boids[0].positionX.should.exist
+    boids.boids[0].positionY.should.exist
+  it 'should have x and y velocity', ->
+    boids = new Boids 1
+    boids.boids[0].velocityX.should.exist
+    boids.boids[0].velocityY.should.exist

@@ -7,6 +7,8 @@ class Boids
         positionY: 0
         velocityX: 0
         velocityY: 0
+        accelerationX: 0
+        accelerationY: 0
       }
 
 module.exports = Boids
